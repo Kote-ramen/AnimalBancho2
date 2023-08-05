@@ -1,0 +1,510 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1691195690638518, "dur":859, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195690639381, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1691195690639424, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1691195690639435, "dur":448, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1691195690639903, "dur":474, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195690640377, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691248618, "dur":485, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249103, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249117, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249120, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249129, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249132, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249141, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249144, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249152, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249158, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249171, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249176, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249194, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249199, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249211, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249216, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249232, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249238, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249250, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249255, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249270, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249275, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249288, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249293, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249309, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249354, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691249390, "dur":3157, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1691195690640073, "dur":335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195690640408, "dur":2410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195690642818, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1691195690642895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195690942324, "dur":23107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1691195690965481, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690965495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195690965500, "dur":8694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690974205, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690974226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195690974232, "dur":6690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690980942, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690980963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195690980970, "dur":8724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690989706, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690989722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195690989726, "dur":10150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195690999886, "dur":48898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195691048787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195691048792, "dur":8953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195691057756, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195691057765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195691057768, "dur":50510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195691108289, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195691108300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195691108304, "dur":28656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691195691136973, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1691195691136987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195691136994, "dur":54562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1691195691191565, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1691195691191573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691195691191576, "dur":44411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1691195691236002, "dur":12592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690640068, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690640404, "dur":2214, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690642625, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1691195690642645, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690642703, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1691195690642707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690643654, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1691195690646638, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1691195690646733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690647350, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1691195690648766, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1691195690648839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690648863, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1691195690650250, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1691195690650304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690650308, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1691195690653106, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1691195690653184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690653188, "dur":21397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1691195690674618, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1691195690674677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690674680, "dur":108972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1691195690783716, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690783735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690784047, "dur":77574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690861641, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690861658, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690861679, "dur":35941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690897668, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690897735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690897751, "dur":22684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690920480, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690920543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690920558, "dur":21363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690941931, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690941938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690941941, "dur":31535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690973493, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690973508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690973512, "dur":6393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690979921, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690979942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690979946, "dur":9666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690989631, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195690989720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195690989725, "dur":11845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691001582, "dur":42389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691043976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195691043981, "dur":4721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691048712, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691048723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195691048728, "dur":9027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691057767, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691057778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195691057783, "dur":53477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691111270, "dur":37840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691149113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195691149118, "dur":46875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691195691196002, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1691195691196013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691195691196016, "dur":44593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1691195691240623, "dur":8076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690640172, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690640434, "dur":2378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690642812, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1691195690642891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690919467, "dur":22110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1691195690941633, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690941652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690941659, "dur":23815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690965484, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690965496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690965501, "dur":8736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690974247, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690974262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690974266, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690981141, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690981153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690981156, "dur":8530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690989694, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195690989708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195690989712, "dur":11854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195691001576, "dur":160548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195691162127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195691162132, "dur":62536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691195691224685, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691195691224785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691195691224790, "dur":20719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691195691245522, "dur":3132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195690640106, "dur":309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195690640416, "dur":2345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195690642761, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1691195690642830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195690783645, "dur":77937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1691195690861654, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195690861680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195690861690, "dur":57438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195690919162, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195690919212, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195690919234, "dur":15770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195690935021, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195690935036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195690935043, "dur":11954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195690947011, "dur":93863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195691040878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195691040885, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195691045616, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195691045631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195691045635, "dur":12241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195691057889, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195691057900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195691057904, "dur":61000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691195691118921, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691195691118952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195691118956, "dur":65523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691195691184498, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691195691184516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691195691184520, "dur":51505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691195691236035, "dur":12583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195690640141, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195690640422, "dur":2391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195690642814, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1691195690642923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195690974233, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1691195690979723, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195690979740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195690979744, "dur":5688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195690985440, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195690985455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195690985458, "dur":9566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195690995033, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195690995043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195690995046, "dur":8037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691003096, "dur":43681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691046779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195691046784, "dur":8003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691054799, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691054811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195691054817, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691058470, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691058479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195691058482, "dur":52737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691111228, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691111236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195691111240, "dur":80368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691195691191616, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1691195691191622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691195691191625, "dur":44044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1691195691235698, "dur":12898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690640191, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690640472, "dur":2189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690642661, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691195690642866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690888345, "dur":31947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691195690920456, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690920515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690920529, "dur":21070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690941611, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690941629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690941633, "dur":21747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690963390, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690963400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690963403, "dur":4855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690968265, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690968274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690968277, "dur":6961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690975260, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690975275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690975280, "dur":6462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690981752, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690981774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690981778, "dur":7934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690989724, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195690989737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195690989741, "dur":11836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195691001588, "dur":59475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195691061066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195691061071, "dur":49975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195691111056, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195691111067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195691111071, "dur":31471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691195691142556, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1691195691142567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195691142571, "dur":41934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1691195691184519, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1691195691184535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691195691184540, "dur":51423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1691195691235979, "dur":12610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690640310, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690640529, "dur":2092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690642625, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1691195690642801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690654692, "dur":17725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1691195690672458, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690672519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690672522, "dur":295725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690968285, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690968298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690968301, "dur":6859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690975190, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690975234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690975242, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690980923, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690980941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690980949, "dur":8671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690989642, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195690989765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195690989770, "dur":11773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691001554, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691001574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691001580, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691003503, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691003530, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691003541, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691007737, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691007762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691007770, "dur":35172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691042957, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691042984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691042989, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691046667, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691046677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691046682, "dur":8110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691054803, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691054814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691054819, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691058281, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691058291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691058295, "dur":50614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691108919, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691108930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691108936, "dur":33601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691195691142553, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1691195691142565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691142570, "dur":49000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1691195691191578, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1691195691191586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691195691191606, "dur":44365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1691195691235990, "dur":12596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690640238, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690640480, "dur":2140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690642625, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1691195690642771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690646797, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1691195690648385, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1691195690648450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690648465, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1691195690649890, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1691195690649950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690649953, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1691195690651550, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1691195690651629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690651633, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1691195690653895, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690653974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690656097, "dur":40907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690697047, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2.exe" }}
+,{ "pid":12345, "tid":8, "ts":1691195690697057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690697059, "dur":86589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2.exe" }}
+,{ "pid":12345, "tid":8, "ts":1691195690783663, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690783683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690813240, "dur":72754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690886048, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690886122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690886143, "dur":34349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690920538, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690920576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690920591, "dur":21003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690941604, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690941621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690941627, "dur":23818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690965463, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690965473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690965476, "dur":8011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690973505, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690973518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690973522, "dur":6328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690979874, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690979932, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690979959, "dur":7622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690987589, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195690987598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195690987602, "dur":15475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195691003094, "dur":187758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195691190855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691195691190859, "dur":44890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691195691235760, "dur":12828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690640335, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690640537, "dur":2285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690642823, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1691195690642922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690965413, "dur":7295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1691195690972755, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195690972773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690972778, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195690976440, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195690976455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690976461, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195690980945, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195690980963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690980968, "dur":8624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195690989609, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195690989702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195690989708, "dur":11846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195691001574, "dur":72811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195691074389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195691074407, "dur":36818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195691111233, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195691111242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195691111245, "dur":31304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691195691142561, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1691195691142667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195691142698, "dur":59069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1691195691201775, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1691195691201788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691195691201791, "dur":36497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1691195691238371, "dur":10249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690640356, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690640541, "dur":2154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690642698, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1691195690642806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690696998, "dur":73922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1691195690770975, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1691195690771091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690806699, "dur":114474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1691195690921432, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690921496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690921518, "dur":20070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690941600, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690941616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690941620, "dur":23858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690965489, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690965552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690965556, "dur":7915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690973500, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690973511, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690973516, "dur":6226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690979752, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690979764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690979768, "dur":5668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690985444, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690985452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690985456, "dur":9526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690994990, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195690995020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195690995024, "dur":7848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691002913, "dur":36710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691039628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195691039636, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691041905, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691041917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195691041921, "dur":3386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691045318, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691045329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195691045334, "dur":12426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691057773, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691057791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195691057795, "dur":61053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691195691118866, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1691195691118879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691195691118883, "dur":129624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1691195691248521, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1691195691248524, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690640426, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690640426, "dur":2267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690642694, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1691195690642799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690652140, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1691195690655706, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690655787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690655815, "dur":205761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690861651, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690861689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690861697, "dur":56641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690918394, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690918437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690918453, "dur":16557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690935023, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690935067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690935072, "dur":12191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690947279, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690947299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690947306, "dur":19313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690966627, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690966637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690966641, "dur":7611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690974280, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690974296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690974300, "dur":7422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690981733, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690981743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690981773, "dur":7814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690989602, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195690989697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195690989704, "dur":11822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195691001537, "dur":77319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195691078859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195691078864, "dur":37104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691195691115976, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1691195691116002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195691116012, "dur":61388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1691195691177413, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1691195691178066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691195691178070, "dur":57850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1691195691235935, "dur":12656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690640454, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690640454, "dur":2329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690642783, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1691195690642859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690887833, "dur":32470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1691195690920445, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690920508, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690920529, "dur":21076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690941618, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690941632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690941635, "dur":24987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690966629, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690966637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690966640, "dur":6666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690973320, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690973330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690973334, "dur":5867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690979209, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690979220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690979224, "dur":4190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690983428, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690983443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690983449, "dur":7090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690990552, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195690990562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195690990567, "dur":10969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195691001551, "dur":70774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195691072329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195691072334, "dur":46497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691195691118844, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1691195691118860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195691118865, "dur":65592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1691195691184473, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1691195691184489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691195691184495, "dur":60839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityGames/AnimalBancho_v2/AnimalBancho_2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1691195691245365, "dur":3311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691195691255078, "dur":1612, "ph":"X", "name": "ProfilerWriteOutput" }
+,
